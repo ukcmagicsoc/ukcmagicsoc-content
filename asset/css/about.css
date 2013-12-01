@@ -1,0 +1,37 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,800,700italic,600italic,800italic);
+/* line 5, ../sass/about.scss */
+#committee #positions {
+  background: url("../img/centerline.png") top center repeat-y;
+  margin-top: 1em;
+  -webkit-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+  -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+}
+/* line 21, ../sass/about.scss */
+#committee #positions .row {
+  padding: 1em 0;
+  margin: 0;
+  font-size: 1.2em;
+}
+/* line 27, ../sass/about.scss */
+#committee #positions .row > .small-6 img {
+  max-width: 4.6875em;
+  max-height: 4.6875em;
+}
+/* line 34, ../sass/about.scss */
+#committee #positions .row > .small-6:first-child img {
+  float: left;
+}
+/* line 40, ../sass/about.scss */
+#committee #positions .row > .small-6:last-child img {
+  float: right;
+}

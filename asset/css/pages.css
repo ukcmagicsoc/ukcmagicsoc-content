@@ -1,0 +1,102 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,800,700italic,600italic,800italic);
+/* line 4, ../sass/pages.scss */
+html {
+  height: 100%;
+}
+
+/* line 8, ../sass/pages.scss */
+body.pages {
+  padding-top: 0 !important;
+  min-height: 100%;
+}
+
+/* line 13, ../sass/pages.scss */
+.page {
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 19, ../sass/pages.scss */
+.page .page-content {
+  display: table-cell;
+  height: 600px;
+  width: 100%;
+  vertical-align: middle;
+  padding: 4em 0;
+}
+/* line 26, ../sass/pages.scss */
+.page .page-content a.next-arrow {
+  position: absolute;
+  bottom: 2em;
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 3em;
+  -webkit-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 700ms cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+  -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+}
+/* line 46, ../sass/pages.scss */
+.page .page-content a.next-arrow:hover {
+  height: 3.5em;
+}
+/* line 52, ../sass/pages.scss */
+.page.light, .page .light {
+  background: #f1f1f2;
+  border-top: 0.25em solid white;
+  color: #404041;
+}
+/* line 57, ../sass/pages.scss */
+.page.dark, .page .dark {
+  background: #404041;
+  border-top: 0.25em solid #333334;
+  color: #f1f1f2;
+}
+/* line 62, ../sass/pages.scss */
+.page.dark h1, .page.dark h2, .page.dark h3, .page.dark h4, .page .dark h1, .page .dark h2, .page .dark h3, .page .dark h4 {
+  color: #f1f1f2;
+}
+/* line 66, ../sass/pages.scss */
+.page.blue, .page .blue {
+  background: #1b75bb;
+  border-top: 0.25em solid #1867a5;
+  color: #f1f1f2;
+}
+/* line 71, ../sass/pages.scss */
+.page.blue h1, .page.blue h2, .page.blue h3, .page.blue h4, .page .blue h1, .page .blue h2, .page .blue h3, .page .blue h4 {
+  color: #f1f1f2;
+}
+/* line 75, ../sass/pages.scss */
+.page.red, .page .red {
+  background: #be1e2d;
+  border-top: 0.25em solid #a81b28;
+  color: #f1f1f2;
+}
+/* line 80, ../sass/pages.scss */
+.page.red h1, .page.red h2, .page.red h3, .page.red h4, .page .red h1, .page .red h2, .page .red h3, .page .red h4 {
+  color: #f1f1f2;
+}
+
+/* line 86, ../sass/pages.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 93, ../sass/pages.scss */
+#branded, #intro {
+  background: #f1f1f2 url(../img/bg_dark_tint.png) center no-repeat;
+  background-size: 100% auto;
+}
